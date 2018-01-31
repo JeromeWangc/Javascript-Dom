@@ -13,10 +13,8 @@
         <li class="sale important">Milk</li>
     </ul>
     <script>
-        var items = document.getElementsByTagName("li");
-        for(var i = 0; i < items.length; i++){
-            alert(typeof items[i]);
-        }
+        var items = document.getElementsByClassName("sale important");
+        alert(items.length);
     </script>
 </body>
 </html>
