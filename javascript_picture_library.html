@@ -8,17 +8,23 @@
     <h1>Snacks</h1>
     <ul>
         <li>
-            <a href="images/CrispyStrips.png" title="CrispyStrips">CrispyStrips</a>
+            <a href="images/CrispyStrips.png" onclick="showPic(this);
+            return false;" title="CrispyStrips">CrispyStrips</a>
         </li>
         <li>
-            <a href="images/nuggets.jpg" title="Nuggets">Nuggets</a>
+            <a href="images/nuggets.jpg" onclick="showPic(this);
+            return false;" title="Nuggets">Nuggets</a>
         </li>
         <li>
-            <a href="images/popcornchicken.jpg" title="PopcornChicken">PopcornChicken</a>
+            <a href="images/popcornchicken.jpg" onclick="showPic(this);
+            return false;" title="PopcornChicken">PopcornChicken</a>
         </li>
         <li>
-            <a href="images/Wickedwing.png" title="WickedWing">WickedWing</a>
+            <a href="images/Wickedwing.png" onclick="showPic(this);
+            return false;" title="WickedWing">WickedWing</a>
         </li>
+        <img id="placeholder" src="images/meal.jpg" alt="meals">
     </ul>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
 </body>
 </html>
